@@ -1,0 +1,136 @@
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    background-color:rgb(240, 239, 239) ;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{background-color: #f39205;
+width: 100%;
+height: 75px;
+}
+#header-button{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    font-family: 'Overpass', sans-serif;
+    margin-right: 28px;
+    transition: all .5s ease-in-out;
+}   
+#liste{
+    text-align: justify;
+    padding-left: 100px;
+    padding-top: 60px;
+    width: 300px;
+    border-style: none;
+    border-width: thick;
+    margin-top: 40px;
+    font-family: 'Overpass', sans-serif;    
+    border-radius: 10px;
+}
+#ftr{
+    left: 20px;
+}
+#solDrop{
+    font-family: 'Overpass', sans-serif;
+    margin-top: 4%;
+    border-radius: 10%;
+    position: relative;
+}
+#mid-info{
+    background-color: white; padding: 20px;
+    font-family: 'Overpass', sans-serif;
+    height: 35%;
+    border-radius: 2%;
+}
+#footerEnd{
+    background-color: #333333; 
+    font-family: 'Overpass', sans-serif;
+    height: 78%;
+    margin-top: 110px;
+}
+#dropdownMenuButton1{
+    width: 93%;
+}
+#headerLogo{
+    height: 128px;
+    width: 135px;
+    background-color: white;
+    padding: 20px;
+    margin-top: -20px;
+    transition: all .5s ease-in-out;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+#myContent{
+    height: 100%;
+}
+#headerLogo:hover{
+    transform: translate(0px,25px);
+    -webkit-transform: translate(0px,25px);
+}
+#solButton{
+    background-color: #f39205;
+    border-color: #f39205;
+    border-radius: 10%;
+}
+#mid-menu{
+    border-bottom-color: #f39205;
+}
+#mid-accordion{
+    margin-right: 60px;
+    width: 65%;
+    display: contents;
+    background-color: white;
+}
+#headingOne{
+    color: #333333;
+}
+#header-search{
+    transition: all .5s ease-in-out;
+}
+#header-search:hover{
+    transform: scale(120%);
+    -webkit-transform: scale(120%);
+}
+#mid-search{
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    max-height: 1024px;
+}
+@media screen and (min-width:961px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+@media screen and (min-width:768px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+#footer-search{
+    margin-left: -3%;
+}

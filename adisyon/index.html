@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" type="name">
+	<title>Menu-Burger Enderundan</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/site.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans:wght@300&family=Overpass:wght@500&family=Permanent+Marker&family=Teko:wght@300&family=Work+Sans&display=swap');
+	</style>
+</head>
+
+<body class="conteiner-sm" id="myContent" style="visibility: visible;">
+	<header class="p-3 text-white sticky-top col-lg-12 col-sm-6 navbar-expand-md" id="navbar">
+		<div class="container">
+			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+				<div id="logoHaraket">
+					<img src="img\logo.png" alt="" id="headerLogo" class="">
+				</div>
+				<div class="text-end justify-content-end" id="header-button">
+					<button type="button" class="btn btn-light opacity-75">Sipariş Veriniz</button>
+					<button type="button" class="btn opacity-50" style="background-color: #fff;">Giriş</button>
+					<button type="button" class="btn opacity-50" style="background-color: #fff;">Kayıt ol</button>
+					<li class="btn btn-danger" style="height: 45px;" id="header-search">
+						<input type="text" placeholder="Menü öğelerini arayın" class="btn btn-light"
+							style="height: 30px;">
+						<button type="button" class="btn " style="height: 30px;">
+							<i class="fa fa-search text-warning"></i>
+						</button>
+					</li>
+				</div>
+			</div>
+	</header>
+	<main>
+		<!--bu bölüm menü bölümü-->
+		<div class="row">
+			<div class="col-3" id="liste">
+				<a href="#" class="list-group-item list-group-item-action text-warning">Tüm Kategoriler</a>
+				<a href="#" class="list-group-item list-group-item-action">Menü/Askıda Burger</a>
+				<a href="#" class="list-group-item list-group-item-action">Burgerler</a>
+				<a href="#" class="list-group-item list-group-item-action">Tatlılar</a>
+				<a href="#" class="list-group-item list-group-item-action">İçecekler</a>
+				<a href="#" class="list-group-item list-group-item-action">Yan ürünler</a>
+			</div>
+			<!--bu bölüm ortadakı bilgi bölümü-->
+			<div class="col-sm-6 text-black" id="mid-info" style="margin-top: 50px;">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="text-black">Enderundan.com</h3>
+						<ul>
+							<li class="fa fa-star text-warning"></li>
+							<li class="fa fa-star text-warning"></li>
+							<li class="fa fa-star text-warning"></li>
+							<li class="fa fa-star text-warning"></li>
+							<li class="fa fa-star text-warning"></li>
+							<span class="small text-secondary">(6)</span>
+						</ul>
+						<p class="text-muted">Namık Kemal mh. İstanbul 34400 Ümraniye, Türkiye</p>
+					</div>
+					<div class="col-md-6">
+						<h6 style="color: #03a025;">AÇIK</h6>
+						<i class="fa fa-clock-o"></i>
+						<span class="text-muted"> 7 gün 24 saat</span>
+						<p style="margin-top : 15px;" class="text-muted">Paket Servis ve Gel-Al siparişi verebilirsiniz
+						</p>
+						<p class="text-muted">Ücretsiz üstünde tüm siparişlerde</p>
+					</div>
+				</div>
+				<div class="row" id="mid-menu">
+					<div class="col-md-4 btn-close-light" style="text-align: center;">
+						<button href="#" class="text-dark btn btn-white">MENÜ</button>
+					</div>
+					<div class="col-md-4 btn-close-light" style="text-align: center;">
+						<button href="#" class="text-dark btn btn-white">YORUMLAR</button>
+					</div>
+					<div class="col-md-4" style="text-align: center;">
+						<button href="#" class="text-dark btn btn-white">HAKKINDA</button>
+					</div>
+				</div>
+				<div style="padding-top: 20px;" id="mid-search">
+					<form class="d-flex border rounded-3" style="width: 600px; margin-left: 25px;">
+						<input class="form-control me-2 " type="search" placeholder="Menü öğelerini arayın."
+							aria-label="Search" style="border-style : none;">
+						<button class="btn btn-white" style="border-style : none; margin-right: 25px;"><i
+								class="fa fa-search text-warning"></i></button>
+					</form>
+				</div>
+				<div class="accordion" id="mid-accordion" style="padding-top: 25px;">
+					<div class="accordion-item" id="mid-accordion">
+						<h2 class="accordion-header" id="headingOne" style="background-color: white;">
+							<button class="accordion-button text-black" type="button" data-bs-toggle="collapse"
+								data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Askıda Burger
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse show row" aria-labelledby="headingOne"
+							data-bs-parent="#accordionExample">
+							<div class="accordion-body col-md-3">
+								<img src="img\thumb_96_125_0_contain_48a4b15e.jpg" alt="">
+							</div>
+							<div class="accordion-body col-md-6">
+								<h4>Askıda Burger</h4>
+								<p class="text-muted">Askıda Burger ile Sizlerde Ortaokul Çağındaki Öğrencilere İkramda
+									Bulunabilirisiniz</p>
+							</div>
+							<div class="accordion-body col-md 3">
+								<h5><b>₺40.00</b></h5>
+								<button class="btn btn-warning" style="background-color: #fd7e14 ;">
+									<span>Ekle</span>
+									<i class="fa fa-plus"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--bu bölüm maindaki sağ bölüm-->
+			<div class="col-sm-3" id="solDrop">
+				<div class="card border-3 border-warning" style="width: 18rem;">
+					<div class="card-body">
+						<div class="dropdown">
+							<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+								data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #EFEDED;">
+								<span class="text-dark">Hemen Teslim</span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+								<li><a class="dropdown-item" href="#"><i class="fa fa-clock-o"></i> Hemen Teslim</a>
+								</li>
+								<li><a class="dropdown-item" href="#"><i class="fa fa-calendar"></i> Gün
+										İçinde <br>(Dilediğiniz zaman diliminde)</a>
+								</li>
+								<form class="dropdown-content px-4 py-3" role="form"
+									data-request="localBox::onSetOrderTime">
+									<input type="hidden" data-timepicker-control="type" value="asap" autocomplete="off">
+									<div class="row no-gutters">
+										<div class="col pr-1">
+											<div class="form-group">
+												<select class="form-control" data-timepicker-control="date"
+													data-timepicker-label="Günü belirle"
+													data-timepicker-selected="2022-03-24">
+													<option value="2022-03-24" selected="selected">Per 24</option>
+												</select>
+											</div>
+										</div>
+										<div class="col pl-1">
+											<div class="form-group">
+												<select class="form-control" data-timepicker-control="time"
+													data-timepicker-label="Saati belirle"
+													data-timepicker-selected="11:15">
+													<option value="">Saati belirle</option>
+													<option value="12:15">12:15 ös</option>
+													<option value="12:30">12:30 ös</option>
+													<option value="12:45">12:45 ös</option>
+													<option value="13:00">01:00 ös</option>
+													<option value="13:15">01:15 ös</option>
+													<option value="13:30">01:30 ös</option>
+													<option value="13:45">01:45 ös</option>
+													<option value="14:00">02:00 ös</option>
+													<option value="14:15">02:15 ös</option>
+													<option value="14:30">02:30 ös</option>
+													<option value="14:45">02:45 ös</option>
+													<option value="15:00">03:00 ös</option>
+													<option value="15:15">03:15 ös</option>
+													<option value="15:30">03:30 ös</option>
+													<option value="15:45">03:45 ös</option>
+													<option value="16:00">04:00 ös</option>
+													<option value="16:15">04:15 ös</option>
+													<option value="16:30">04:30 ös</option>
+													<option value="16:45">04:45 ös</option>
+													<option value="17:00">05:00 ös</option>
+													<option value="17:15">05:15 ös</option>
+													<option value="17:30">05:30 ös</option>
+													<option value="17:45">05:45 ös</option>
+													<option value="18:00">06:00 ös</option>
+													<option value="18:15">06:15 ös</option>
+													<option value="18:30">06:30 ös</option>
+													<option value="18:45">06:45 ös</option>
+													<option value="19:00">07:00 ös</option>
+													<option value="19:15">07:15 ös</option>
+													<option value="19:30">07:30 ös</option>
+													<option value="19:45">07:45 ös</option>
+													<option value="20:00">08:00 ös</option>
+													<option value="20:15">08:15 ös</option>
+													<option value="20:30">08:30 ös</option>
+													<option value="20:45">08:45 ös</option>
+													<option value="21:00">09:00 ös</option>
+													<option value="21:15">09:15 ös</option>
+													<option value="21:30">09:30 ös</option>
+													<option value="21:45">09:45 ös</option>
+													<option value="22:00">10:00 ös</option>
+													<option value="22:15">10:15 ös</option>
+													<option value="22:30">10:30 ös</option>
+													<option value="22:45">10:45 ös</option>
+													<option value="23:00">11:00 ös</option>
+													<option value="23:15">11:15 ös</option>
+													<option value="23:30">11:30 ös</option>
+													<option value="23:45">11:45 ös</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<button type="button" class="btn btn-block btn-warning active text-nowrap"
+										style="margin-top: 10px;">
+										Paket Servis Saatini Ayarla
+									</button>
+								</form>
+							</ul>
+						</div>
+						<div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 10px;"
+							id="solButton">
+							<button type="button" class="btn btn-warning">Paket Servis</button>
+							<button type="button" class="btn btn-warning" style="width: 115px;">Gel-Al</button>
+						</div>
+						<div>
+							<small class="text-muted" style="margin-left: 40px; margin-top: 35p;">Minimum sipariş
+								tutarı yok.</small>
+						</div>
+						<div>
+							<img src="img\shopping_second.jpg" alt=""
+								style="height: 150px; background-color: white; margin-left: 30px; margin-top: 70px;">
+						</div>
+						<div>
+							<h5 style="text-align: center;" class="text-dark">Sepetiniz şuan boş.</h5>
+						</div>
+						<div>
+							<small class="text-muted" style="margin-left: 40px;">Sepetinize menüler ekleyin.</small>
+						</div>
+					</div>
+				</div>
+			</div>
+	</main>
+	<footer class="py-5" id="footerEnd">
+		<!--Footer Bölümü-->
+		<div class="row container" style="margin-left: 35px;" id="ftr">
+			<div class="col-sm-4">
+				<h4 style="color: aliceblue;">Enderundan</h4>
+				<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">Sipariş Veriniz</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">Konumumuz</a></li>
+				</ul>
+			</div>
+
+			<div class="col-sm-4">
+				<h4 style="color: aliceblue;">Enderundan</h4>
+				<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">İletişime Geç</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">Hakkımızda</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">Gizlilik Politikamız</a>
+					</li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">Mesafeli Satış
+							Sözleşmesi</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">Koşullar ve Şartlar</a>
+					</li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">Kargo ve Teslimat
+							Bilgileri</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">Üyelik Sözleşmesi</a></li>
+				</ul>
+			</div>
+
+			<div class="col-sm-4">
+				<h5 style="color: aliceblue;">Bizi Takip Edin</h5>
+			</div>
+
+			<div class="col-sm-4 offset-1" id="footer-search">
+				<form>
+					<h5 style="color: aliceblue">Sonraki Etkinliklerde Beni Bilgilendir</h5>
+					<div class="d-flex w-100 gap-2">
+						<label for="newsletter1" class="visually-hidden">İstek ve Önerileriniz</label>
+						<input id="newsletter1" type="text" class="form-control" placeholder="">
+						<button id="subscribeButton" class="btn btn-primary">
+							<i class="fa fa-paper-plane"></i>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<hr class="mb-3">
+			</div>
+		</div>
+		<div>
+			<p style="color: aliceblue; margin-left: 35px;">© 2022 Burger Enderundan - enderundan.com</p>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
